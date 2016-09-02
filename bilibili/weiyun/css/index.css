@@ -1,0 +1,110 @@
+#tools button {
+    background: #ffffff;
+    color: #505254;
+    border: 1px #c7c9cf solid;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 28px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 13px;
+    background: url("../images/ico-message.png") no-repeat 6px 0;
+}
+#tools button:hover {
+    border: 1px #aaa solid;
+}
+
+#tools button.createFolder {
+    background-position-y: -545px;
+}
+#tools button.rename {
+    background-position-y: -511px;
+}
+#tools button.moveto {
+    background-position-y: -447px;
+}
+#tools button.delete {
+    background-position-y: -319px;
+}
+
+#breadcrumb{
+    margin: 10px 0;
+    color: white;
+    background: #2e8ae6;
+    padding: 10px;
+}
+#breadcrumb a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.file {
+    width: 125px;
+    height: 127px;
+    float: left;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+}
+
+.file .image {
+    width: 125px;
+    height: 100px;
+    background: url('../images/file.png') no-repeat;
+}
+.file .name {
+    height: 27px;
+    text-align: center;
+    font-size: 12px;
+}
+.file .image-folder {
+    background-position: 32px 25px;
+}
+.file .checkbox {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    display: none;
+    background: url('../images/ico.png') no-repeat 0 -370px;
+}
+
+/*hover*/
+.file-hover {
+    border: 1px solid #c3d8f0;
+    background: rgba(195,216,240,0.2);
+}
+.file-hover .checkbox {
+    display: block;
+}
+/*checked*/
+.file-checked {
+    border: 1px solid #c3d8f0;
+    background: rgba(195,216,240,0.5);
+}
+.file-checked .checkbox {
+    display: block;
+    background: url('../images/ico.png') no-repeat 0 -421px;
+}
+#box{
+	max-width: 600px;
+	height: 200px;
+	border: 1px solid pink;
+	position: absolute;
+	z-index: 2;
+	background-color: #fff;
+}
+#mark{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	display: none;
+}

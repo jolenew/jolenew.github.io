@@ -1,0 +1,78 @@
+	.w980 {
+		width:1160px;
+	}
+/* * tophead * */
+	#tophead {
+		min-width:1160px;
+	}
+/* * header * */
+	#header {
+		min-width:1160px;
+	}
+	#header .menu .nav li .title {
+		padding:15px 20px 0;
+	}
+	#header .event .li {
+		margin:0 20px;
+	}
+/* * side * */
+	#side {
+		margin-left:1170px;
+	}
+/* * banner * */
+	#banner .banner-r {
+		width:700px;
+	}
+	#banner .banner-r .banner-r-box {
+		width:700px;
+	}
+	#banner .banner-r .banner-r-box ul {
+		width:720px;
+	}
+/* * main * */
+	#main .m-banner {
+		height:96px;
+	}
+	#main .m-l {
+		width:880px;
+	}
+	#main .m-main .m-list {
+		width:990px;
+	}
+	#fanju .f-newbox .m-head ul {
+		width:750px;
+	}
+	#fanju .f-newbox .m-head li {
+		width:70px;
+	}
+	#fanju .f-newbox .f-box li {
+		width:215px;
+	}
+
+/* * footer * */
+	#footer {
+		min-width:1160px;
+	}
+	#footer .f-top dl {
+		width:358px;
+		padding-left:50px;
+	}
+	#footer .f-top dd {
+		margin-right:10px;
+	}
+	#footer .f-top dl.first {
+		width:340px;
+		padding-left:0;
+	}
+	#footer .f-btm .partner {
+		margin-right:40px;
+	}
+	#footer .f-btm ul {
+		margin-right:25px;
+	}
+	#footer .f-btm .right {
+		width:365px;
+	}
+	#footer .f-btm .right a {
+		margin-right:25px;
+	}
